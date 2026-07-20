@@ -1,0 +1,91 @@
+name: Bug / Crash Report
+description: Report a crash, launcher problem, update problem, or gameplay bug.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping test Silent Hill: United. Please include enough detail to reproduce the issue.
+
+        Do not attach original game files, disc images, ROMs, ISOs, or copyrighted assets.
+  - type: dropdown
+    id: channel
+    attributes:
+      label: Release channel
+      options:
+        - Release
+        - Nightly
+        - Unknown
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Mod version
+      description: Use the version shown by the launcher or release package.
+      placeholder: "0.0.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue type
+      options:
+        - Crash
+        - Freeze / hang
+        - Launcher problem
+        - Update problem
+        - Gameplay bug
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: Describe the problem as clearly as possible.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps that trigger the issue.
+      placeholder: |
+        1. Start the launcher
+        2. Join a multiplayer session
+        3. Enter...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen instead?
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 23H2"
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Hardware notes
+      description: Optional, but useful for crashes or performance problems.
+      placeholder: "CPU, GPU, RAM, controller type"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or crash details
+      description: Paste relevant logs, error messages, or crash text. Do not upload game files or disc images.
+      render: text
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I am using a valid copy of the game and did not attach original game files, disc images, ROMs, ISOs, or copyrighted assets.
+          required: true

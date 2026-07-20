@@ -1,0 +1,48 @@
+name: Feature Request
+description: Suggest an improvement for releases, launcher behavior, multiplayer, or public distribution.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for suggestions that would improve Silent Hill: United as a public release or multiplayer experience.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Multiplayer gameplay
+        - Launcher / updates
+        - Release packaging
+        - UI / presentation
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: What would you like to see?
+      description: Describe the feature or improvement.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why would this help?
+      description: Explain the player or tester benefit.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Optional. Mention any workaround or alternate design you considered.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: This request does not require distributing original game files, disc images, ROMs, ISOs, or copyrighted assets.
+          required: true

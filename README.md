@@ -116,9 +116,12 @@ No original game files, disc images, ROMs, or ISOs are distributed in this repos
 
 ## Support
 
-For bugs, crashes, or multiplayer issues, open an issue and include:
+For bugs, crashes, multiplayer issues, or feature requests, open an issue using the matching GitHub issue template.
+
+Useful details include:
 
 - Mod version
+- Release channel
 - Windows version
 - What you were doing when the issue happened
 - Crash log or error message, if available

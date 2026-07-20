@@ -1,0 +1,112 @@
+name: Multiplayer / Desync Issue
+description: Report connection, lobby, map marker, sync, host/client, or co-op gameplay issues.
+title: "[Multiplayer]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Multiplayer stability is the priority for Silent Hill: United. Reports with host/client details are especially useful.
+
+        Do not attach original game files, disc images, ROMs, ISOs, or copyrighted assets.
+  - type: dropdown
+    id: channel
+    attributes:
+      label: Release channel
+      options:
+        - Release
+        - Nightly
+        - Unknown
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Mod version
+      placeholder: "0.0.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your role
+      options:
+        - Host / Harry
+        - Client / Lisa
+        - Both players tested
+        - Unsure
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Multiplayer mode
+      options:
+        - Online relay
+        - LAN
+        - Same PC / split screen
+        - Unsure
+    validations:
+      required: true
+  - type: input
+    id: area
+    attributes:
+      label: Area or map
+      description: Where did the issue happen?
+      placeholder: "Old Silent Hill, school, hospital, etc."
+  - type: dropdown
+    id: symptom
+    attributes:
+      label: Main symptom
+      options:
+        - Player position desync
+        - Companion missing or invisible
+        - Map marker incorrect
+        - Inventory / item desync
+        - Enemy or combat desync
+        - Start/join failure
+        - Disconnect
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: Describe what each player saw.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include what the host did and what the client did.
+      placeholder: |
+        Host:
+        1.
+
+        Client:
+        1.
+    validations:
+      required: true
+  - type: input
+    id: network
+    attributes:
+      label: Network notes
+      description: Optional. Include NAT/VPN/Wi-Fi/wired details if relevant.
+      placeholder: "Both wired, one player on VPN, high ping, etc."
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, screenshots, or clips
+      description: Paste logs or link media that shows the issue. Do not upload original game files.
+      render: text
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: Both players were using the same mod version, or I explained the version mismatch above.
+          required: true
+        - label: I did not attach original game files, disc images, ROMs, ISOs, or copyrighted assets.
+          required: true
