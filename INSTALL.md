@@ -28,7 +28,74 @@ No original game files, disc images, ROMs, ISOs, saves, or personal configuratio
    C:\Games\Silent Hill United\
    ```
 
-4. Follow the release notes for the exact game-data placement required by that build.
+4. Put your own Silent Hill 1 disc image in the ROM folder, as explained below.
+
+## ROM Placement
+
+Silent Hill: United does not include the original game. You must provide your own legally obtained Silent Hill 1 disc image.
+
+After extracting the release package, open this folder:
+
+```text
+C:\Games\Silent Hill United\Data\ROM\
+```
+
+Put the game disc image directly inside `Data\ROM`. The recommended file name is:
+
+```text
+Silent Hill (v1.1).bin
+```
+
+Your install should look like this:
+
+```text
+C:\Games\Silent Hill United\
+  Launcher.exe
+  Silent Hill United.exe
+  Data\
+    ROM\
+      Silent Hill (v1.1).bin
+      Silent Hill (v1.1).cue
+```
+
+The `.cue` file is optional for the current runtime, but if your dump includes one, keep it next to the `.bin` and make sure it points to the same `.bin` file. The `.bin` is the important file.
+
+Accepted exact `.bin` names:
+
+```text
+Silent Hill (USA).bin
+Silent Hill (USA) (v1.1).bin
+Silent Hill (USA) (Rev 1).bin
+Silent Hill (v1.1).bin
+Silent Hill (Rev 1).bin
+Silent Hill (PAL).bin
+Silent Hill (Europe) (En,Fr,De,Es,It).bin
+```
+
+If your file has a different name, the game may still try to autodetect it if it is a valid `.bin`, but renaming it to one of the names above is the safest option.
+
+Common mistakes to avoid:
+
+```text
+Wrong: C:\Games\Silent Hill United\Silent Hill (v1.1).bin
+Right: C:\Games\Silent Hill United\Data\ROM\Silent Hill (v1.1).bin
+
+Wrong: C:\Games\Silent Hill United\Data\ROM\Silent Hill (v1.1).cue only
+Right: C:\Games\Silent Hill United\Data\ROM\Silent Hill (v1.1).bin
+
+Wrong: C:\Games\Silent Hill United\Data\ROM\Silent Hill.iso
+Wrong: C:\Games\Silent Hill United\Data\ROM\Silent Hill.chd
+Wrong: C:\Games\Silent Hill United\Data\ROM\Silent Hill.zip
+Right: C:\Games\Silent Hill United\Data\ROM\Silent Hill (v1.1).bin
+```
+
+Do not put the ROM in `Data\Saves`, `Data\Maps`, `Data\DLLs`, the root install folder, or a nested folder inside `Data\ROM`.
+
+If the launcher says it cannot find the disc image, check three things:
+
+- The file is inside `Data\ROM`.
+- The file ends in `.bin`.
+- The name matches one of the accepted names above.
 
 ## Package Notes
 
