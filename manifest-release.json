@@ -1,0 +1,20 @@
+{
+    "schemaVersion":  1,
+    "project":  "Silent Hill: United",
+    "channel":  "Release",
+    "version":  "0.0.1",
+    "tag":  "v0.0.1",
+    "mandatory":  false,
+    "createdAtUtc":  "2026-07-20T11:10:42.3465990+00:00",
+    "releaseUrl":  "https://github.com/Depmify/Silent-Hill-United-Public-/releases/tag/v0.0.1",
+    "package":  {
+                    "name":  "Silent-Hill-United-v0.0.1.zip",
+                    "url":  "https://github.com/Depmify/Silent-Hill-United-Public-/releases/download/v0.0.1/Silent-Hill-United-v0.0.1.zip",
+                    "sha256":  "16a3812d854c8d8324303fd836f8ab9d1a4148aee905c08450232ba06d858621",
+                    "size":  24665869
+                },
+    "source":  {
+                   "commit":  "aec5e50edd1f65c7762b6f7f0481dc6c41cff158",
+                   "dirty":  true
+               }
+}
