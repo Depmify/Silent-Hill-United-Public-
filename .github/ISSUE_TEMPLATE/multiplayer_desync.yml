@@ -1,7 +1,7 @@
 name: Multiplayer / Desync Issue
 description: Report connection, lobby, map marker, sync, host/client, or co-op gameplay issues.
 title: "[Multiplayer]: "
-labels: ["bug"]
+labels: ["bug", "multiplayer"]
 body:
   - type: markdown
     attributes:

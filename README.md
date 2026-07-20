@@ -49,6 +49,8 @@ https://github.com/Depmify/Silent-Hill-United-Public-/releases
 
 Do not clone this repository to install the mod. Use the latest release package instead.
 
+For setup steps, see [INSTALL.md](INSTALL.md).
+
 ## Release Channels
 
 - Release: stable public builds intended for normal play.
@@ -82,6 +84,8 @@ manifest.json
 - Windows PC
 - A valid copy of Silent Hill 1 / compatible PC setup
 - Network access for multiplayer features
+
+See [INSTALL.md](INSTALL.md) for download, setup, update, and package notes.
 
 ## Updating
 
