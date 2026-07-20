@@ -23,6 +23,28 @@ Multiplayer starts inside Silent Hill: United. Open the in-game online lobby, ch
 
 ![In-game online lobby showing available players and connection status](assets/highlights/online-lobby.png)
 
+How to play online with another person:
+
+1. Download the latest public release package from the Releases page.
+2. Follow [INSTALL.md](INSTALL.md) and place your own legal Silent Hill 1 disc image in the required ROM folder.
+3. Start `Launcher.exe`.
+4. Use the launcher updater first if you need to move to the latest `Release` build.
+5. Launch the game from the launcher.
+6. Open the in-game online lobby.
+7. Wait until the lobby shows your connection as ready.
+8. Select the player you want to join from the player list.
+9. Confirm the connection and let the official server handle the session.
+10. Start playing once both players are connected.
+
+Lobby status tips:
+
+- `JOINABLE` means the player can be selected for online play.
+- `IN LOBBY` means the player is available in the online lobby.
+- `IN GAME` means the player is already playing and may not be available.
+- High ping can cause delay, desync, or unstable sessions.
+
+If you cannot see or join another player, make sure both players are using the same release channel and version, both games are allowed through the Windows firewall, and both players have restarted the lobby after updating. For two PCs on the same home network, LAN play is also available.
+
 ### Cooperative Combat
 
 Silent Hill feels different when you are not alone. Harry and Lisa can stand together in the same scene, cover each other in tight corridors, and turn enemy encounters into tense co-op moments instead of solitary survival.
