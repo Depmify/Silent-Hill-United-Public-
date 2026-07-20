@@ -7,6 +7,14 @@ Step back into Silent Hill with another player at your side: fight through the t
 This repository is used only for public releases, update metadata, and distribution files.
 The source code is not hosted here.
 
+## Community
+
+Join the Discord server to follow Silent Hill: United development, release news, and multiplayer testing:
+
+https://discord.gg/dXqEzN54s
+
+The same community also follows Resident Evil: United, a modern-engine multiplayer recreation inspired by Resident Evil 1, with elements combined from Resident Evil 3.
+
 ## Highlights
 
 ### Cooperative Combat
