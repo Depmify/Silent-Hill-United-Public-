@@ -17,6 +17,12 @@ The same community also follows Resident Evil: United, a modern-engine multiplay
 
 ## Highlights
 
+### In-Game Online Lobby
+
+Multiplayer starts inside Silent Hill: United. Open the in-game online lobby, choose who you want to play with, and the official server handles the connection for you: no VPN setup, no external matchmaking tools, no extra ritual before entering town. If both players are on the same home network, LAN play is still available as an alternative.
+
+![In-game online lobby showing available players and connection status](assets/highlights/online-lobby.png)
+
 ### Cooperative Combat
 
 Silent Hill feels different when you are not alone. Harry and Lisa can stand together in the same scene, cover each other in tight corridors, and turn enemy encounters into tense co-op moments instead of solitary survival.
