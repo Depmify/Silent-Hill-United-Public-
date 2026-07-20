@@ -53,6 +53,10 @@ Example update metadata:
 
 This project is experimental and under active development. Multiplayer stability is the current priority.
 
+## Credits
+
+Special thanks to [Vatuu/silent-hill-decomp](https://github.com/Vatuu/silent-hill-decomp) and its contributors for the Silent Hill 1 decompilation work that helped make this project possible.
+
 ## Disclaimer
 
 Silent Hill is owned by its respective rights holders.
