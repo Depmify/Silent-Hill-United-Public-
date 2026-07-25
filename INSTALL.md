@@ -112,10 +112,14 @@ Some folders may be included empty so the launcher or game can create runtime fi
 
 1. Run `Launcher.exe`.
 2. Check that the launcher shows the expected mod version.
-3. Choose the release channel or multiplayer option you want to test.
-4. Start or join a session.
+3. Use the updater if you need to move to the latest public `Release` build.
+4. Launch the game.
+5. For online play, choose `MULTIPLAYER GAME`, then `ONLINE`.
+6. Enter or confirm your player name if prompted.
+7. To host, choose `Create Room`, wait for another player, then choose `START NEW GAME` or `LOAD GAME`.
+8. To join, select an open room marked `Wait` and `>Join`, confirm the room, then wait for the host.
 
-Both players should use the same mod version when testing multiplayer.
+Both players should use the same release channel and mod version when testing multiplayer. Rooms with a different compatible-version group may be shown as unavailable.
 
 ## Updating
 

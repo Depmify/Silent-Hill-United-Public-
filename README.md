@@ -19,9 +19,9 @@ The same community also follows Resident Evil: United, a modern-engine multiplay
 
 ### In-Game Online Lobby
 
-Multiplayer starts inside Silent Hill: United. Open the in-game online lobby, choose who you want to play with, and the official server handles the connection for you: no VPN setup, no external matchmaking tools, no extra ritual before entering town. If both players are on the same home network, LAN play is still available as an alternative.
+Multiplayer starts inside Silent Hill: United. Open `MULTIPLAYER GAME`, enter the online lobby, and create or join a room from inside the game. The official server lists rooms by owner, status, player count, and ping, so there is no VPN setup, no external matchmaking tool, and no extra ritual before entering town. If both players are on the same home network, LAN play is still available as an alternative.
 
-![In-game online lobby showing available players and connection status](assets/highlights/online-lobby.png)
+![In-game online lobby showing online rooms, status, ping, and join actions](assets/highlights/online-lobby.png)
 
 How to play online with another person:
 
@@ -30,20 +30,36 @@ How to play online with another person:
 3. Start `Launcher.exe`.
 4. Use the launcher updater first if you need to move to the latest `Release` build.
 5. Launch the game from the launcher.
-6. Open the in-game online lobby.
-7. Wait until the lobby shows your connection as ready.
-8. Select the player you want to join from the player list.
-9. Confirm the connection and let the official server handle the session.
-10. Start playing once both players are connected.
+6. In the main menu, choose `MULTIPLAYER GAME`, then `ONLINE`.
+7. Enter or confirm your player name if the game asks for one.
+8. To host, choose `Create Room`, wait for another player to join, adjust `Settings` if needed, then choose `START NEW GAME` or `LOAD GAME`.
+9. To join, select an open room marked `Wait` and `>Join`, confirm the room, then wait for the host to start.
+10. Start playing once both players are in the same room and the host begins the session.
 
-Lobby status tips:
+Room status tips:
 
-- `JOINABLE` means the player can be selected for online play.
-- `IN LOBBY` means the player is available in the online lobby.
-- `IN GAME` means the player is already playing and may not be available.
+- `Wait` means the room is open and has a free player slot.
+- `Full` means the room already has both players.
+- `In game` means the room owner is already playing.
+- `VER` means the room is using a different compatible-version group.
+- `LAN` means the room appears to be on the same local network.
 - High ping can cause delay, desync, or unstable sessions.
 
-If you cannot see or join another player, make sure both players are using the same release channel and version, both games are allowed through the Windows firewall, and both players have restarted the lobby after updating. For two PCs on the same home network, LAN play is also available.
+If you cannot see or join another room, make sure both players are using the same release channel and version, both games are allowed through the Windows firewall, and both players have restarted the lobby after updating. For two PCs on the same home network, LAN play is also available.
+
+Example online flow:
+
+| Browse rooms | Scroll long room lists |
+| --- | --- |
+| ![Room list with available, full, in-game, and version-mismatch rooms](assets/online-guide/01-room-list.png) | ![Room list scrolled near the bottom with the scroll indicator visible](assets/online-guide/02-room-list-scrolled.png) |
+
+| Join a room | Host a room |
+| --- | --- |
+| ![Join confirmation screen for the selected room owner](assets/online-guide/03-join-room-confirm.png) | ![Created room waiting for another player](assets/online-guide/04-created-room-waiting.png) |
+
+| Start as host | Adjust host settings | Wait as client |
+| --- | --- | --- |
+| ![Host room after another player joins, with start and load options](assets/online-guide/05-host-room-ready.png) | ![Host room settings for friendly fire, split screen, and collision](assets/online-guide/06-host-room-settings.png) | ![Client waiting for the host to start the online game](assets/online-guide/07-client-waiting-for-host.png) |
 
 ### Cooperative Combat
 
